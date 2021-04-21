@@ -1,0 +1,99 @@
+Introduction:
+Megatron was a telegram file management bot that helped a lot of users, specially movie channel managers to upload
+their files to telegram by just providing a link to it. The project initially started as roanuedhuru_bot which lately
+retired and came back as Megatron which was a side project of the
+famous Maldivian Telegram community - @Baivaru until it retired.
+
+Agenda:
+1. Introduction:
+    Setting up [x]
+    - common command:
+        - on message_ filter for commands - [x]
+    - download/Upload:
+        - initial portion [x]
+
+2. Rename:
+    - InlineButtons [x]
+    - callback queries [x]
+    - force reply [x]
+
+3. Media Info:
+    - Cross check for video files to add the media info Inline Button [x]
+    - Integration of ffprobe to extract media info
+        from Video files, basically that also includes creating subprocesses
+        to run a shell command [x]
+
+4. Integrating with a DB for global Download/Upload Settings:
+    - Attending subscribers comments first [x]
+    Note: with the last video we did media info and it was saved to a json file, there was a request to save this file
+    to text, well as you remember we had always listen to our community and got things done as always what they wanted,
+    lets keep the same spirit.
+    - Introducing a DB for the APP to record user settings [x]
+
+5. Updating dld_settings:
+    - Edit Reply Markup [x]
+    - Updating/Amend documents on Mongo [x]
+    - Saving Image Files to DB as base64 [x]
+
+
+6. Implying dld_settings to upload:
+    - Fixing a huge bug I left unattended in last video [x]
+    - converting base64 strings/bytes to files [x]
+    - define thumbnails on the uploads [x]
+
+7. Moving the callback filters to regex:
+    - Bug Fixes 🤷‍ I have no idea what else to call this [x]
+
+8. Querying files already downloaded:
+    - saving file details to DB [x]
+    - telegram deep links (I guess thats what its called) [x]
+
+9. Inline Queries for Querying files that are already downloaded:
+    - attending questions from tg group [x]
+    - introduction of dustbin [x]
+    - inline queries [x]
+
+10. Cloning and Deployment:
+
+11. Bug Fixing:
+
+12. Custom Filters:
+
+13. Screens:
+
+14: introduction of YTDL:
+    - Moving uploading files to its own module [x]
+    - Attending a GitHub raised issue [x]
+    - Introduction to Youtube-dl (extracting audio) [x]
+
+15. Deployment to Heroku - the recommended way, getting media info of YT Links:
+    - audio files to be always uploaded as audio, despite which ever setting [x]
+    - Creating a module called nekofy [x]
+    - generating media info from YT Links [x]
+    - Demonstration of deployment to heroku the recommended way [x]
+
+16. Introduction to Asyncio Executor, Youtube-DL Video extraction and Bugfixes:
+    - Introduction to Asyncio Executor [x]
+    - Cleaning YTDL a bit as its [x]
+    - Introduction to Video Extraction on YTDL [x]
+    - Bug Fixes [x]
+
+17. Introduction of Torrents:
+    - Introduction of Web API [x]
+
+18. Unzip/Extraction, Introduction to Google-Python-API and uploads to Google drive.
+    - Unzip/Extraction of torrent files uploaded [x]
+    - Authentication for Google API [x]
+    - Uploading Files to gDrive [x]
+    - Housekeeping of gDrive [x]
+
+19. Streaming Telegram files:
+so that is basically what is done, it looks complicated, however when once u understand the concept it is
+easy, in case you have any questions just jump by our status telegram group and there will always be
+someone around there to answer u... well the group is @megatronstatus... anyway, we will conclude the
+video here for today, on the next video we will investigate on a way to include this streaming link
+to the files that are uploaded, and if there is anything else to include that too....
+haha
+Have a nice day ahead... :-)
+    - Introduction of a webserver [x]
+    - Custom download method [x]
