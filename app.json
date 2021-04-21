@@ -30,12 +30,10 @@
         "TG_APP_ID": {
             "description": "Get this value from https://my.telegram.org",
             "required": true
-            "value": 1479154
         },
         "TG_API_HASH": {
             "description": "Get this value from https://my.telegram.org",
             "required": true
-            "value": "6b21cb22818e09132fb904705c31d3a1"
         },
         "TG_DUSTBIN_CHAT": {
             "description": "Watch this video to understand what the dustbin is: https://youtu.be/vgzMacnI5Z8"
