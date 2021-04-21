@@ -1,6 +1,6 @@
 {
     "name": "MegaDLBot",
-    "description": "https://telegram.dog/MegaDLBot",
+    "description": "https://telegram.dog/pleaseusebot",
     "keywords": [
         "telegram",
         "best",
@@ -25,7 +25,6 @@
         "TG_BOT_TOKEN": {
             "description": "Your bot token, as a string.",
             "required": true
-            "value": "1628214746:AAF6e7d7hwLDo8xQgyqmzxdhX7r4BXgAtCI"
         },
         "TG_APP_ID": {
             "description": "Get this value from https://my.telegram.org",
